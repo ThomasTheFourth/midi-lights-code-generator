@@ -1,7 +1,7 @@
 import "./App.css";
 import { Container, Led, Tier, Code } from "./styles";
 import { useState, useEffect } from "react";
-import { chunk, forEach, trimStart } from "lodash";
+import { chunk } from "lodash";
 
 const colors = [
   "red",
